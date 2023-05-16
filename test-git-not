@@ -1,0 +1,37 @@
+~cd  ~/Docments  // dosya değiştirme
+mkdir testGit  // dosyaya gitme
+cd testGit // dosyanın içine girme
+
+ls  // dosya içerisindeki  liste varsa  onu gösterir
+
+git init // dosyanın konumuna git
+
+
+PS C:\Users\Adem\testGit> .git> cd ..
+ ls
+git add test
+ git add test
+ git add .
+ git add .
+ git commit -m "Yazı Eklendi" -m "Daha sonra kullanılmak üzere isim soyisim eklendi"
+
+
+git init  --Yeni bir git projesi oluşturur.
+
+Klasör içersinde değişikliker yaptık.
+
+git add(değişiklik yapılan dosyalar (test , src/test)) veya . tüm değişikliker
+
+git commit -m "ilk commit mesajı" -m "Açıklama"
+
+git remote add origin
+git push -> uzak sunucuya değişiklikeri gönderme
+
+# Global olarak ayarları değiştirmek
+# Komut çalıştırın (ör: git bash)
+# Kullanıcı adınızı ayarlayın: git config --global user.name "İSİM SOYİSİM"
+# E-Postanızı ayarlayın: git config --global user.email "ORNEK@asnus.com"
+# Son olarak e-posta ve kullanıcı adınızı teyit edin
+
+# # kullanıcı adı gösterme
+# git config user.name
